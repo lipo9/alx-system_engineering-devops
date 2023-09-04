@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2154
 # Script that installs Nginx server, redirects /redirect_me and customizes 404 not found
 apt-get -y update
 apt-get -y install nginx
